@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome GitHub Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #fff;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Header Section */
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            background: linear-gradient(90deg, #ff6b6b, #feca57, #48dbfb, #ff9ff3);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        .header .subtitle {
+            color: #a0a0a0;
+            font-size: 1.2rem;
+            animation: fadeInUp 1s ease-out 0.3s both;
+        }
+
+        /* Pie Chart Section */
+        .stats-section {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 40px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            animation: fadeInUp 1s ease-out 0.5s both;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: #feca57;
+        }
+
+        .pie-chart-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        .pie-chart {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            background: conic-gradient(
+                #E34F26 0deg 126deg,
+                #1572B6 126deg 252deg,
+                #ED8B00 252deg 288deg,
+                #4479A1 288deg 360deg
+            );
+            position: relative;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+            animation: rotatePie 20s linear infinite;
+        }
+
+        @keyframes rotatePie {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .pie-chart::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            border-radius: 50%;
+        }
+
+        .legend {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .legend-item:hover {
+            transform: translateX(10px);
+        }
+
+        .legend-color {
+            width: 30px;
+            height: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .legend-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .legend-label {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .legend-percentage {
+            font-size: 0.9rem;
+            color: #a0a0a0;
+        }
+
+        /* Currently Using Section */
+        .using-section {
+            text-align: center;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            margin-bottom: 40px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            animation: fadeInUp 1s ease-out 0.7s both;
+        }
+
+        .using-title {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #48dbfb;
+        }
+
+        .arch-linux {
+            display: inline-flex;
+            align-items: center;
+            gap: 20px;
+            padding: 20px 40px;
+            background: linear-gradient(135deg, #1793d1 0%, #0d5a7d 100%);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(23, 147, 209, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .arch-linux:hover {
+            transform: scale(1.05);
+        }
+
+        .arch-logo {
+            font-size: 3rem;
+        }
+
+        .arch-text {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        /* Secret Message Section */
+        .secret-section {
+            text-align: center;
+            padding: 60px 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            margin-bottom: 40px;
+            animation: pulse 2s ease-in-out infinite;
+            box-shadow: 0 10px 40px rgba(102, 126, 234, 0.4);
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+        }
+
+        .secret-message {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .breakthrough {
+            font-size: 1.5rem;
+            color: #ffd700;
+            margin-bottom: 30px;
+        }
+
+        /* GIF Section */
+        .gif-section {
+            text-align: center;
+            animation: fadeInUp 1s ease-out 1s both;
+        }
+
+        .gif-container {
+            display: inline-block;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+            transition: transform 0.3s ease;
+        }
+
+        .gif-container:hover {
+            transform: scale(1.05) rotate(2deg);
+        }
+
+        .gif-container img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .congrats-text {
+            margin-top: 30px;
+            font-size: 1.2rem;
+            color: #a0a0a0;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .pie-chart-container {
+                flex-direction: column;
+            }
+
+            .pie-chart {
+                width: 200px;
+                height: 200px;
+            }
+
+            .secret-message {
+                font-size: 1.5rem;
+            }
+
+            .breakthrough {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>🎯 YOUR AWESOME NAME</h1>
+            <p class="subtitle">Full Stack Developer | Open Source Enthusiast | Coffee Addict</p>
+        </header>
+
+        <!-- Statistics Section -->
+        <section class="stats-section">
+            <h2 class="section-title">📊 My Language Statistics</h2>
+            
+            <div class="pie-chart-container">
+                <!-- Animated Pie Chart -->
+                <div class="pie-chart"></div>
+                
+                <!-- Legend -->
+                <div class="legend">
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #E34F26;"></div>
+                        <div class="legend-text">
+                            <span class="legend-label">HTML</span>
+                            <span class="legend-percentage">35% (35% of 100%)</span>
+                        </div>
+                    </div>
+                    
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #1572B6;"></div>
+                        <div class="legend-text">
+                            <span class="legend-label">CSS</span>
+                            <span class="legend-percentage">35% (35% of 100%)</span>
+                        </div>
+                    </div>
+                    
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #ED8B00;"></div>
+                        <div class="legend-text">
+                            <span class="legend-label">Java</span>
+                            <span class="legend-percentage">10% (10% of 100%)</span>
+                        </div>
+                    </div>
+                    
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #4479A1;"></div>
+                        <div class="legend-text">
+                            <span class="legend-label">MySQL</span>
+                            <span class="legend-percentage">20% (20% of 100%)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Currently Using Section -->
+        <section class="using-section">
+            <h2 class="using-title">🖥️ Currently Using</h2>
+            
+            <div class="arch-linux">
+                <span class="arch-logo">🐧</span>
+                <span class="arch-text">Arch Linux</span>
+            </div>
+            
+            <p style="margin-top: 20px; color: #a0a0a0;">
+                The best Linux distribution for those who want complete control! 🎉
+            </p>
+        </section>
+
+        <!-- Secret Message Section -->
+        <section class="secret-section">
+            <h2 class="secret-message">⬇️ you scrolled too far, what a breakthrough!</h2>
+            <p class="breakthrough">🎉 Congratulations! You've discovered the secret message!</p>
+        </section>
+
+        <!-- GIF Section -->
+        <section class="gif-section">
+            <div class="gif-container">
+                <!-- Fun GIF - Mind Blown -->
+                <img src="https://media.giphy.com/media/3o7TKSjRrfIPjeiVyM/giphy.gif" 
+                     alt="Mind Blown GIF" 
+                     width="400" 
+                     loading="lazy">
+            </div>
+            
+            <p class="congrats-text">
+                🎁 Your reward for being curious and persistent! 
+                <br>
+                Only the best developers make it this far! ✨
+            </p>
+        </section>
+
+        <!-- Footer -->
+        <footer style="text-align: center; padding: 40px 20px; color: #a0a0a0;">
+            <p>Made with ❤️ and excessive scrolling</p>
+            <p style="margin-top: 10px;">© 2024 Awesome GitHub Profile</p>
+        </footer>
+    </div>
+
+    <!-- Interactive Elements -->
+    <script>
+        // Add click effect to Arch Linux
+        document.querySelector('.arch-linux').addEventListener('click', function() {
+            this.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                this.style.transform = 'scale(1.05)';
+            }, 100);
+        });
+
+        // Add scroll-based animations
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const rate = scrolled * 0.5;
+            
+            document.querySelector('.pie-chart').style.transform = 
+                `rotate(${rate}deg)`;
+        });
+
+        // Console easter egg
+        console.log('%c🎉 You found the developer console!', 'font-size: 20px; color: #667eea;');
+        console.log('%c✨ Keep exploring and coding!', 'font-size: 16px; color: #feca57;');
+    </script>
+</body>
+</html>
+
