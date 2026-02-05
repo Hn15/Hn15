@@ -14,18 +14,17 @@
   <!-- Pie chart stats with pie layout -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=pie&show_icons=true&theme=dracula&hide_border=true&langs_count=6&card_width=500" alt="Top Languages Pie Chart" />
   
+  <!-- You can change theme to: radical, tokyonight, gruvbox, synthwave, etc. -->
+  
   <br><br>
   
-  <!-- Currently using section -->
+  <!-- Currently using section – only Arch Linux logo -->
   <h3>Currently using</h3>
   
-  <div style="display: flex; flex-direction: column; align-items: center; gap: 12px;">
-    <!-- Arch Linux – using reliable badge-style PNG that always renders -->
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <!-- Arch Linux badge (reliable PNG that always displays correctly) -->
     <img src="https://img.shields.io/badge/Arch%20Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" 
          alt="Arch Linux" />
-    
-    <!-- Nano badge below it -->
-    <img src="https://img.shields.io/badge/Nano-4B8BBE?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Nano" />
   </div>
 </div>
 
@@ -37,7 +36,7 @@
   <h3 style="color: #ff5555;">you scrolled too far, what a breakthrough!</h3>
   <br>
   
-  <!-- Your GIF – updated filename -->
+  <!-- Your GIF (filename you mentioned) -->
   <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/main/breakthrough.gif" 
        alt="Epic looping animation" 
        width="420" />
