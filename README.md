@@ -20,16 +20,19 @@
   
   <!-- Currently using section -->
   <h3>Currently using</h3>
-  <p>
-    <!-- Official Crystal icon SVG (sharp and scalable) -->
+  
+  <div style="display: flex; flex-direction: column; align-items: center; gap: 12px;">
+    <!-- Arch Linux logo (SVG) -->
     <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Arch_Linux_%22Crystal%22_icon.svg" 
          alt="Arch Linux" 
-         width="80" 
-         height="80" />
-    <!-- Nano badge -->
+         width="90" 
+         height="90" />
+    
+    <!-- Nano badge below it -->
     <img src="https://img.shields.io/badge/Nano-4B8BBE?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Nano" />
-    <!-- You can add more like: bash, git, etc. -->
-  </p>
+  </div>
+  
+  <!-- You can add more items here in the same column if you want -->
 </div>
 
 <!-- Some breathing room -->
