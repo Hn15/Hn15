@@ -26,7 +26,6 @@
          alt="Arch Linux" 
          width="80" 
          height="80" />
-    &nbsp;&nbsp;&nbsp;
     <!-- Nano badge -->
     <img src="https://img.shields.io/badge/Nano-4B8BBE?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Nano" />
     <!-- You can add more like: bash, git, etc. -->
