@@ -14,24 +14,19 @@
   <!-- Pie chart stats with pie layout -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=pie&show_icons=true&theme=dracula&hide_border=true&langs_count=6&card_width=500" alt="Top Languages Pie Chart" />
   
-  <!-- Themes you can try: dracula, radical, tokyonight, gruvbox, synthwave, etc. -->
-  
   <br><br>
   
   <!-- Currently using section -->
   <h3>Currently using</h3>
   
   <div style="display: flex; flex-direction: column; align-items: center; gap: 12px;">
-    <!-- Arch Linux logo (SVG) -->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Arch_Linux_%22Crystal%22_icon.svg" 
-         alt="Arch Linux" 
-         width="90" 
-         height="90" />
+    <!-- Arch Linux – using reliable badge-style PNG that always renders -->
+    <img src="https://img.shields.io/badge/Arch%20Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" 
+         alt="Arch Linux" />
+    
     <!-- Nano badge below it -->
     <img src="https://img.shields.io/badge/Nano-4B8BBE?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Nano" />
   </div>
-  
-  <!-- You can add more items here in the same column if you want -->
 </div>
 
 <!-- Some breathing room -->
@@ -42,8 +37,8 @@
   <h3 style="color: #ff5555;">you scrolled too far, what a breakthrough!</h3>
   <br>
   
-  <!-- Your GIF (use your own raw link from the repo) -->
-  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/main/assets/your-cool-gif.gif" 
+  <!-- Your GIF – updated filename -->
+  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/main/breakthrough.gif" 
        alt="Epic looping animation" 
        width="420" />
 </div>
