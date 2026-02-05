@@ -1,110 +1,47 @@
-# 🎯 **Helix Nebula**
+<!-- Big centered name / title -->
+<h1 align="center">
+  Hi, I'm YOUR_USERNAME 👋
+</h1>
 
----
-
-## 📊 **My Language Stats**
-
-### 🌈 **Pie Chart Breakdown**
-
-```html
-<!-- HTML: 50% - Orange Red (#E34F26) -->
-<!-- CSS: 50% - Blue (#1572B6) -->
-<!-- Java: 10% - Orange (#ED8B00) -->
-<!-- MySQL: 100% - Blue (#4479A1) -->
-```
-
-### 📈 **Visual Statistics**
-
-![HTML 50%](https://img.shields.io/badge/HTML-50%25-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS 50%](https://img.shields.io/badge/CSS-50%25-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Java 10%](https://img.shields.io/badge/Java-10%25-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![MySQL 100%](https://img.shields.io/badge/MySQL-100%25-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-### 🎨 **Color-Coded Skills**
+<!-- Optional typing effect or short bio -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3500&pause=800&color=00FF9D&center=true&vCenter=true&width=500&lines=Full-Stack+Web+Developer;Linux+Enjoyer;Building+random+stuff" alt="Typing SVG" />
+</p>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML" height="30">
-  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS" height="30">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white" alt="Java" height="30">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" height="30">
-</div>
-
----
-
-## 💻 **Currently Using**
-
-<div align="center">
+  <br>
   
-### 🐧 **Arch Linux**
+  <!-- Pie chart stats - using pie layout -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=pie&show_icons=true&theme=dracula&hide_border=true&langs_count=6&card_width=500" alt="Top Languages Pie Chart" />
   
-![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793d1?style=for-the-badge&logo=arch-linux&logoColor=white)
-
-*Currently powered by the best Linux distribution* 🎉
-
-</div>
-
----
-
-<div align="center">
-
-# ⬇️ **WAIT! DON'T SCROLL PAST THIS!**
-
-## 😱 **you scrolled too far, what a breakthrough!**
-
-*Congratulations! You've discovered the secret message that appears when you scroll too far!*
-
-### 🎉 **What a breakthrough indeed!**
-
----
-
-### 🖼️ **Bonus GIF Just For You**
-
-![Mind Blown](https://media.giphy.com/media/3o7TKSjRrfIPjeiVyM/giphy.gif)
-
-*Your reward for being curious! 🎁*
-
----
-
-### 🔮 **Prophecy Fulfilled**
-
-*The ancient prophecy said: "One who scrolls beyond the content shall find wisdom and GIFs"*
-
----
-
-### ✨ **You're Special!** ✨
-
-*Only the most persistent developers find this treasure!*
-
-</div>
-
----
-
-## 📫 **Connect With Me**
-
-<div align="center">
+  <!-- Or try other themes: radical, tokyonight, gruvbox, synthwave, etc. -->
+  <!-- Add &hide=html,css if you want to force certain languages away -->
   
-[![GitHub followers](https://img.shields.io/github/followers/YOUR_USERNAME?style=for-the-badge&logo=github)](https://github.com/YOUR_USERNAME)
-[![Twitter Follow](https://img.shields.io/twitter/follow/YOUR_HANDLE?style=for-the-badge&logo=twitter)](https://twitter.com/YOUR_HANDLE)
-
+  <br><br>
+  
+  <!-- Currently using section -->
+  <h3>Currently using</h3>
+  <p>
+    <img src="https://img.shields.io/badge/Arch_Linux-1793D1?logo=archlinux&logoColor=white&style=for-the-badge" alt="Arch Linux" />
+    &nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/-Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white" alt="Neovim" />
+    <!-- Add more shields if you want: i3, rofi, zsh, etc. -->
+  </p>
 </div>
 
----
+<!-- Some space -->
+<br><br><br>
 
-## 🌟 **Support Me**
-
+<!-- The joke at the bottom -->
 <div align="center">
-
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-☕-white?style=for-the-badge)](https://buymeacoffee.com/YOUR_USERNAME)
-
-*Thanks for checking out my profile!*
-
+  <h3 style="color: #ff5555;">you scrolled too far, what a breakthrough!</h3>
+  <br>
+  
+  <!-- Your GIF (replace with your own raw GitHub link) -->
+  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/main/assets/your-cool-gif.gif" 
+       alt="Epic looping animation" 
+       width="420" />
 </div>
 
----
-
-<div align="center">
-
-*Made with ❤️ and excessive scrolling*
-
-</div>
-
+<!-- Optional: hide the "you scrolled too far" until people actually scroll -->
+<!-- You can leave it like this – it's funny when they reach it -->
