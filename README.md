@@ -1,1 +1,1 @@
-<img src="https://drive.google.com/drive/folders/1o5-hfwtF-HjFnjRDhik6qPBXa6_dFAQs?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto">
+<img src="https://drive.google.com/file/d/1tsGLqPJNHx6Q3swfBzg1hn8917i23n2e/view?usp=sharing">
